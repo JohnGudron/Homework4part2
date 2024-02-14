@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Домашняя работа 4 часть 2</string>
+    <string name="avatar_photo">Фото пользователя</string>
+    <string name="default_name">Имя</string>
+    <string name="default_surname">Фамилия</string>
+    <string name="default_number">Номер</string>
+    <string name="et_name_hint">Имя</string>
+</resources>

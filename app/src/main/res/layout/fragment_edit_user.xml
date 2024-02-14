@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:weightSum="8"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditUserFragment">
+
+    <ImageView
+        android:id="@+id/editAvatarIv"
+        android:layout_width="match_parent"
+        android:padding="16dp"
+        android:layout_weight="8"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_user_avatar"
+        android:contentDescription="@string/avatar_photo" />
+
+    <EditText
+        android:id="@+id/nameEt"
+        android:hint="@string/et_name_hint"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="start"
+        android:layout_marginHorizontal="16dp"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:layout_marginTop="8dp"
+        android:inputType="text"
+        android:text="@string/default_name"
+         />
+
+    <EditText
+        android:id="@+id/surnameEt"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="16dp"
+        android:layout_gravity="start"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:layout_marginTop="8dp"
+        android:inputType="text"
+        android:text="@string/default_surname" />
+
+    <EditText
+        android:id="@+id/numberEt"
+        android:layout_gravity="start"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:layout_marginTop="8dp"
+        android:inputType="number"
+        android:text="@string/default_number" />
+
+</LinearLayout>

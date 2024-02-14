@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Home work 4 part 2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="avatar_photo">Avatar photo</string>
+    <string name="default_name">Default name</string>
+    <string name="default_surname">Default surname</string>
+    <string name="default_number">Default number</string>
+    <string name="et_name_hint">Name</string>
+</resources>
